@@ -54,7 +54,7 @@ A Kodi screensaver add-on that connects to your [Immich](https://immich.app) ser
 
 - **Kodi 21 (Omega)** or later — tested with LibreELEC 12.2.1 (Kodi 21.3)
 - **Immich 3.0.1** or later
-- An Immich API key with `asset.read` permission
+- An Immich API key with `asset.read` and `asset.view` permissions
 
 #### Activating the screensaver
 
@@ -91,7 +91,7 @@ Open the add-on settings via **Settings > Interface > Screensaver > Settings**:
 4. Click **Create API Key**, give it a name (e.g., "Kodi Screensaver").
 5. Copy the generated key and paste it into the add-on settings.
 
-Use a scoped key with `asset.read` only. Broader permissions are not required for this add-on.
+Use a scoped key with `asset.read` and `asset.view`. Broader permissions are not required for this add-on.
 
 #### Immich Server URL examples
 
@@ -158,12 +158,12 @@ If you expose Immich publicly, consider restricting the API key permissions or u
 ##### 401 Unauthorized
 
 - The API key is invalid or expired. Generate a new one in Immich User Settings > API Keys.
-- Confirm the key includes `asset.read`.
+- Confirm the key includes `asset.read` and `asset.view`.
 
 ##### No assets found
 
 - Your Immich library may be empty, or the API key's user has no accessible assets.
-- Ensure the key includes `asset.read`.
+- Ensure the key includes `asset.read` and `asset.view`.
 
 ##### Videos not playing
 
