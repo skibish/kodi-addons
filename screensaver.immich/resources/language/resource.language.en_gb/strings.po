@@ -1,0 +1,85 @@
+# Kodi language file
+# Addon Name: Immich Screensaver
+# Addon id: screensaver.immich
+
+msgid ""
+msgstr ""
+"Project-Id-Version: Kodi Addons\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en_GB\n"
+
+msgctxt "#30001"
+msgid "Immich Server URL"
+msgstr "Immich Server URL"
+
+msgctxt "#30002"
+msgid "Immich API Key"
+msgstr "Immich API Key"
+
+msgctxt "#30003"
+msgid "Photo display duration (seconds)"
+msgstr "Photo display duration (seconds)"
+
+msgctxt "#30004"
+msgid "Include videos"
+msgstr "Include videos"
+
+msgctxt "#30005"
+msgid "Max video playback duration (seconds)"
+msgstr "Max video playback duration (seconds)"
+
+msgctxt "#30006"
+msgid "Number of assets to fetch per batch"
+msgstr "Number of assets to fetch per batch"
+
+msgctxt "#30007"
+msgid "Thumbnail size"
+msgstr "Thumbnail size"
+
+msgctxt "#30008"
+msgid "Fade transition duration (milliseconds)"
+msgstr "Fade transition duration (milliseconds)"
+
+msgctxt "#30009"
+msgid "Video mode"
+msgstr "Video mode"
+
+msgctxt "#30010"
+msgid "Play full video length (ignore max duration)"
+msgstr "Play full video length (ignore max duration)"
+
+msgctxt "#30011"
+msgid "Encoded videos only (smoother playback)"
+msgstr "Encoded videos only (smoother playback)"
+
+msgctxt "#30012"
+msgid "Enable audio during video playback"
+msgstr "Enable audio during video playback"
+
+msgctxt "#30013"
+msgid "Video prewarm size (MB)"
+msgstr "Video prewarm size (MB)"
+
+msgctxt "#30015"
+msgid "Verify SSL certificate"
+msgstr "Verify SSL certificate"
+
+msgctxt "#30020"
+msgid "Immich Screensaver Settings"
+msgstr "Immich Screensaver Settings"
+
+msgctxt "#30021"
+msgid "Connection error. Check Immich URL and API key in add-on settings."
+msgstr "Connection error. Check Immich URL and API key in add-on settings."
+
+msgctxt "#30022"
+msgid "No assets found in your Immich library."
+msgstr "No assets found in your Immich library."
+
+msgctxt "#30023"
+msgid "Immich URL not configured. Open add-on settings to configure."
+msgstr "Immich URL not configured. Open add-on settings to configure."
+
+msgctxt "#30024"
+msgid "Immich API key not configured. Open add-on settings to configure."
+msgstr "Immich API key not configured. Open add-on settings to configure."

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.skibish.kodi" name="Skibish Kodi Add-ons" version="0.0.1" provider-name="skibish">
+	<extension point="xbmc.addon.repository" name="Skibish Kodi Add-ons">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/skibish/kodi-addons/main/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/skibish/kodi-addons/main/zips/addons.xml.md5</checksum>
+			<datadir>https://raw.githubusercontent.com/skibish/kodi-addons/main/zips/</datadir>
+			<hashes>false</hashes>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Third-party Kodi add-ons by skibish</summary>
+		<description lang="en">Install and update Kodi add-ons published in the Skibish Kodi Add-ons repository.</description>
+		<platform>all</platform>
+		<license>GPL-3.0-only</license>
+		<news>v0.0.1: Initial repository release.</news>
+	</extension>
+</addon>

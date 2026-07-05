@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<setting id="sep1" type="lsep" label="30020"/>
+	<setting id="immich_url" type="text" label="30001" default="http://localhost:2283"/>
+	<setting id="api_key" type="text" label="30002" default="" option="hidden"/>
+	<setting id="verify_ssl" type="bool" label="30015" default="true"/>
+	<setting id="sep2" type="sep"/>
+	<setting id="photo_duration_seconds" type="number" label="30003" default="8"/>
+	<setting id="include_videos" type="bool" label="30004" default="true"/>
+	<setting id="video_mode" type="select" label="30009" values="poster_only|playback" default="poster_only"/>
+	<setting id="play_full_video" type="bool" label="30010" default="false"/>
+	<setting id="encoded_videos_only" type="bool" label="30011" default="true"/>
+	<setting id="enable_audio" type="bool" label="30012" default="false"/>
+	<setting id="video_prewarm_mb" type="number" label="30013" default="8"/>
+	<setting id="max_video_duration_seconds" type="number" label="30005" default="30"/>
+	<setting id="fade_duration_ms" type="number" label="30008" default="1000"/>
+	<setting id="sep3" type="sep"/>
+	<setting id="batch_size" type="number" label="30006" default="50"/>
+	<setting id="thumbnail_size" type="select" label="30007" values="preview|thumbnail|fullsize" default="preview"/>
+</settings>
